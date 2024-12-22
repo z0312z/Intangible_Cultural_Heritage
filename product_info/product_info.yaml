@@ -1,0 +1,53 @@
+围棋:
+    heighlights: [历史文化悠久, 战术策略丰富, 智力博弈, 民间传统, 竞技比赛, 文化象征]
+    images: "./product_info/images/go_board.png"
+    instruction: "./product_info/instructions/go_board.md"
+    id: 1
+
+
+中国结:
+    heighlights: [绳结编织技艺, 中国结寓意吉祥, 造型美观大方, 材质选择多样, 编织手法灵活, 家居装饰优选]
+    images: "./product_info/images/chinese_knot.png"
+    instruction: "./product_info/instructions/chinese_knot.md"
+    id: 2
+
+
+普洱茶:
+    heighlights: [茶叶发酵工艺, 茶香浓郁独特, 口感醇厚回甘, 茶叶储存讲究, 发酵过程复杂, 茶文化精髓]
+    images: "./product_info/images/puer_tea.png"
+    instruction: "./product_info/instructions/puer_tea.md"
+    id: 3
+
+
+糖画:
+    heighlights: [糖画技法精湛, 动物形象逼真, 色彩鲜艳明快, 寓意吉祥如意, 民间文化体现, 节日氛围浓厚]
+    images: "./product_info/images/candy_painting.png"
+    instruction: "./product_info/instructions/candy_painting.md"
+    id: 4
+
+
+面塑《寿桃》:
+    heighlights: [面塑材质柔软可塑, 寿桃形象逼真, 寓意长寿吉祥, 色彩搭配和谐, 民间文化传承, 观众情感共鸣]
+    images: "./product_info/images/miansu.png"
+    instruction: "./product_info/instructions/miansu.md"
+    id: 5
+
+泉州提线木偶戏《钟馗醉酒》:
+    heighlights: [传统手工艺, 木偶灵动演绎, 角色鲜活呈现, 剧情引人入胜, 舞台视觉盛宴, 文化精髓传承]
+    images: "./product_info/images/quanzhou_puppetry_zhongkui.png"
+    instruction: "./product_info/instructions/quanzhou_puppetry_zhongkui.md"
+    id: 6
+
+    
+壁画《飞天神韵》:
+    heighlights: [历史背景深厚, 艺术表现手法多样, 人物形象生动, 色彩搭配和谐, 故事情节丰富, 文化价值显著]
+    images: "./product_info/images/flying_apsaras.png"
+    instruction: "./product_info/instructions/flying_apsaras.md"
+    id: 7
+
+
+风筝制作《潍坊风筝》:
+    heighlights: [风筝制作技艺, 潍坊风筝造型多样, 飞行稳定持久, 制作材料环保, 传统文化弘扬, 亲子活动优选]
+    images: "./product_info/images/wei_fang_kite.png"
+    instruction: "./product_info/instructions/wei_fang_kite.md"
+    id: 8
