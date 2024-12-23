@@ -53,18 +53,18 @@ instruction_generation_setting:
 
 # 角色及其性格
 role_type:
-  乐乐喵: # 萝莉
+  菲菲: # 萝莉
     - 知识渊博
     - 讲解生动
     - 熟练运用非遗相关的历史与文化典故
     - 称呼观众为[亲爱的朋友们]
 
-# 商品信息结构体
+# 非遗信息结构体
 product_info_struct:
   - 非遗名是[{name}]，
   - 非遗的亮点是[{highlights}]
 
-# prompt: 购买东西时候，客户常会问题的问题，举例10个, 只列举大类就行
+# prompt: 了解非遗的时候，客户常会问题的问题，举例10个, 只列举大类就行
 customer_question_type:
   - 历史背景与文化渊源
   - 制作工艺与技艺特点

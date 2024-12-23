@@ -37,7 +37,7 @@ def on_btn_click(*args, **kwargs):
 
 def init_sidebar():
     """
-    初始化侧边栏界面，展示商品信息，并提供操作按钮。
+    初始化侧边栏界面，展示非遗信息，并提供操作按钮。
     """
     asr_text = ""
     with st.sidebar:
@@ -78,16 +78,8 @@ def init_sidebar():
                 "生成数字人视频", value=st.session_state.gen_digital_human_checkbox
             )
 
-        if WEB_CONFIGS.ENABLE_AGENT:
-            # 是否使用 agent
-            st.subheader(f"Agent 配置", divider="grey")
-            with st.container(border=True):
-                st.markdown("**插件列表**")
-                st.button("结合天气查询到货时间", type="primary")
-            st.session_state.enable_agent_checkbox = st.toggle("使用 Agent 能力", value=st.session_state.enable_agent_checkbox)
-
         st.subheader("页面切换", divider="grey")
-        st.button("返回商品页", on_click=on_btn_click, kwargs={"info": "返回商品页"})
+        st.button("返回非遗项目展示页", on_click=on_btn_click, kwargs={"info": "返回非遗项目展示页"})
 
         st.subheader("对话设置", divider="grey")
         st.button("清除对话历史", on_click=on_btn_click, kwargs={"info": "清除对话历史"})

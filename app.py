@@ -101,13 +101,13 @@ def make_product_container(product_name, product_info, image_height, each_card_o
     - each_card_offset: 容器内各部分间距。
     """
 
-    # 创建带边框的产品信息容器，设置高度
+    # 创建带边框的产品信息容器，设置高度    
     with st.container(border=True, height=image_height + each_card_offset):
 
         # 页面标题
         st.header(product_name)
 
-        # 划分左右两列，左侧为图片，右侧为商品信息
+        # 划分左右两列，左侧为图片，右侧为非遗信息
         image_col, info_col = st.columns([0.2, 0.8])
 
         # 图片展示区域
@@ -229,7 +229,7 @@ def init_product_info():
 
     product_name_list = list(product_info_dict.keys())
 
-    # 生成商品信息
+    # 生成非遗信息
     for row_id in range(0, len(product_name_list), WEB_CONFIGS.EACH_ROW_COL):
         for col_id, col_handler in enumerate(st.columns(WEB_CONFIGS.EACH_ROW_COL)):
             with col_handler:
@@ -277,16 +277,16 @@ def init_asr():
 
 def main():
     """
-    初始化页面配置，加载模型，处理页面跳转，并展示商品信息。
+    初始化页面配置，加载模型，处理页面跳转，并展示非遗信息。
     """
     print("Starting...")
 
     # 初始化页面跳转
     if "page_switch" not in st.session_state:
         st.session_state.page_switch = "app.py"
-    st.session_state.current_page = "app.py"
+        st.session_state.current_page = "app.py"
 
-    # 显示商品说明书
+    # 显示非遗说明书
     if "show_instruction_path" not in st.session_state:
         st.session_state.show_instruction_path = "X-X"
     if st.session_state.show_instruction_path != "X-X":
@@ -371,8 +371,6 @@ def main():
                 st.markdown("**插件列表**")
                 st.button("结合天气查询到货时间", type="primary")
             st.session_state.enable_agent_checkbox = st.toggle("使用 Agent 能力", value=st.session_state.enable_agent_checkbox)
-
-
 
 
 if __name__ == "__main__":

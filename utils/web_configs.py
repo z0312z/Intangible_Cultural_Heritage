@@ -16,7 +16,7 @@ class WebConfigs:
     else:
         LLM_MODEL_NAME: str = "HinGwenWoong/streamer-sales-lelemiao-7b"
 
-    SALES_NAME: str = "乐乐喵"  # 启动的角色名
+    SALES_NAME: str = "菲菲"  # 启动的角色名
 
     LLM_MODEL_DIR: str = r"./weights/llm_weights/"
 
@@ -80,7 +80,7 @@ class WebConfigs:
     DIGITAL_HUMAN_GEN_PATH: str = r"./work_dirs/digital_human"
     DIGITAL_HUMAN_MODEL_DIR: str = r"./weights/digital_human_weights/"
     DIGITAL_HUMAN_BBOX_SHIFT: int = 0
-    DIGITAL_HUMAN_VIDEO_PATH: str = r"./doc/digital_human/lelemiao_digital_human_video.mp4"
+    DIGITAL_HUMAN_VIDEO_PATH: str = r"./doc/digital_human/1.mp4"
     DIGITAL_HUMAN_FPS: str = 25
 
     # ==================================================================

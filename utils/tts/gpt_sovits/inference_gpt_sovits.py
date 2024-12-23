@@ -474,7 +474,7 @@ def get_tts_model(voice_character_name="艾丝妲", is_half=True):
     print(f"gpt_path dir = {gpt_path}")
     print(f"sovits_path dir = {sovits_path}")
 
-    inf_name = "激动说话-列车巡游银河，我不一定都能帮上忙，但只要是花钱能解决的事，尽管和我说吧。.wav"
+    inf_name = "很多人会害怕打雷，不过我听到雷声只会觉得亲近。.wav"
     prompt_text = inf_name.split("-")[-1].replace(".wav", "")
     ref_wav_path = Path(tts_star_model_root).joinpath("参考音频", inf_name)
 

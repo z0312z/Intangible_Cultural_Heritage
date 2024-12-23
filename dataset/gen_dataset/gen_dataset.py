@@ -182,8 +182,7 @@ def gen_product_highlights(dastset_yaml_path, api_yaml_path):
 
             product_highlights = call_qwen_message(
                 content_str=product_str,
-                system_str="现在你精通任何产品，你可以帮我举例每个产品的6个亮点或特点，, 然后用python dict形式输出：{类名：[特点1, 特点2] ...} ，去掉特点12的字样，除python字典外的其他都不要输出，不要有任何的警告信息",
-                model_type=dashscope.Generation.Models.qwen_turbo,
+                system_str="现在你精通任何非遗文化，你可以帮我举例每个非遗的6个亮点或特点，, 然后用python dict形式输出：{类名：[特点1, 特点2] ...} ，去掉特点12的字样，除python字典外的其他都不要输出，不要有任何的警告信息",                model_type=dashscope.Generation.Models.qwen_turbo,
             )
 
             code_block = re.findall(r"```python(.*)```", product_highlights, flags=re.DOTALL)[0]
@@ -290,7 +289,7 @@ def gen_dataset(dastset_yaml_path: str, api_yaml_path: str, save_json_root: Path
                             customer_question_type = random.sample(dataset_yaml["customer_question_type"], each_pick_question)
                         customer_question_str = "、".join(customer_question_type)
 
-                        # 商品信息
+                        # 非遗信息
                         product_info_str = dataset_yaml["product_info_struct"][0].replace("{name}", product)
                         product_info_str += dataset_yaml["product_info_struct"][1].replace("{highlights}", hightlight_str)
 

@@ -64,7 +64,7 @@
         "Node name for S&R": "VHS_LoadVideoPath"
       },
       "widgets_values": {
-        "video": "/root/hingwen_camp/work_dirs/digial_tample_pro.mp4",
+        "video": "/root/hingwen_camp/work_dirs/1.mp4",
         "force_rate": 0,
         "force_size": "Disabled",
         "custom_width": 512,
@@ -79,7 +79,7 @@
             "frame_load_cap": 24,
             "skip_first_frames": 0,
             "force_rate": 0,
-            "filename": "/root/hingwen_camp/work_dirs/digial_tample_pro.mp4",
+            "filename": "/root/hingwen_camp/work_dirs/1.mp4",
             "type": "path",
             "format": "video/mp4",
             "select_every_nth": 2

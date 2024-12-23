@@ -24,11 +24,11 @@ from xtuner.utils import PROMPT_TEMPLATE
 #                          PART 1  Settings                           #
 #######################################################################
 # Model
-pretrained_model_name_or_path = 'internlm/internlm2-chat-7b' # 如果本地有可以直接使用 绝对路径 '/path/to/internlm/internlm2-chat-7b'
+pretrained_model_name_or_path = '/root/finetune/work_dirs/assistTuner/merged' # 如果本地有可以直接使用 绝对路径 '/path/to/internlm/internlm2-chat-7b'
 use_varlen_attn = False
 
 # Data
-data_path = '/root/Streamer-Sales/finetune_configs/internlm2_chat_7b_qlora_custom_data.py'
+data_path = '/root/moon/Intangible_Cultural_Heritage/dataset/gen_dataset/trainval_dataset/response/train3.json'
 prompt_template = PROMPT_TEMPLATE.internlm2_chat
 max_length = 2048
 pack_to_max_length = True
@@ -57,8 +57,8 @@ save_total_limit = 2  # Maximum checkpoints to keep (-1 means unlimited)
 evaluation_freq = 50
 SYSTEM = ''
 evaluation_inputs = [
-    '我的商品名是[狗狗沐浴露]，商品的亮点是[天然成分、多种香味选择、无刺激]，你需要根据我给出的商品信息撰写一段直播带货口播文案。你需要放大商品的亮点价值，激发用户的购买欲。',
-    '我的商品名是[洗洁精]，商品的亮点是[天然成分、无残留、适用各种餐具]，你需要根据我给出的商品信息撰写一段直播带货口播文案。你需要放大商品的亮点价值，激发用户的购买欲。'
+    '非遗名是[围棋]，非遗的亮点是[策略性强, 变化无穷, 智力挑战]，你需要根据我给出的非遗信息撰写一段非遗讲解文案。你能够根据非遗项目的详细信息讲解非遗并且结合非遗信息解答观众提出的问题。',
+    '非遗名是[普洱茶]，非遗的亮点是[茶叶发酵工艺, 茶香浓郁独特, 口感醇厚回甘]，你需要根据我给出的非遗信息撰写一段非遗讲解文案。你能够根据非遗项目的详细信息讲解非遗并且结合非遗信息解答观众提出的问题。'
 ]
 
 #######################################################################
