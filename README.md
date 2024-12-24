@@ -25,7 +25,7 @@
 - 🎨 一键生成，无论是语音转文字的便捷，还是视觉呈现的精致，都让你的非遗探索之旅如行云流水，尽在掌握。
 
 ## 🏷️架构图
-![架构图](./Information/架构图.png)
+![架构图](./Information/架构图2.png)
 
 ## 🎞️ 🎭演示视频
 [点击观看](https://www.bilibili.com/video/BV1DikTYDEaN/?share_source=copy_web&vd_source=60a9d4803dceda5b0d29cfab7058dff0)
