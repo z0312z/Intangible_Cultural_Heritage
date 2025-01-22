@@ -51,6 +51,16 @@
 ## 🎞️ 🎭演示视频
 [点击观看](https://www.bilibili.com/video/BV1DikTYDEaN/?share_source=copy_web&vd_source=60a9d4803dceda5b0d29cfab7058dff0)
 
+## 🛠 环境搭建
+
+```bash
+git clone https://github.com/PeterH0323/Streamer-Sales.git
+cd Streamer-Sales
+studio-conda -t streamer-sales -o pytorch-2.1.2
+conda activate streamer-sales
+pip install -r requirements.txt
+```
+
 ## 🧩开发进度
 - 项目启动与需求整理
 - 架构设计阶段
