@@ -54,10 +54,10 @@
 ## 🛠 环境搭建
 
 ```bash
-git clone https://github.com/PeterH0323/Streamer-Sales.git
-cd Streamer-Sales
+git https://github.com/z0312z/Intangible_Cultural_Heritage.git
+cd Intangible_Cultural_Heritage
 studio-conda -t streamer-sales -o pytorch-2.1.2
-conda activate streamer-sales
+conda activate Intangible_Cultural_Heritage
 pip install -r requirements.txt
 ```
 
