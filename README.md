@@ -67,9 +67,9 @@ streamlit run app.py --server.address=0.0.0.0 --server.port 7860
 
 ## 📜 微调数据
 
-数据集生成有关的配置都在 [configs/conversation_cfg.yaml](https://github.com/PeterH0323/Streamer-Sales/blob/main/configs/conversation_cfg.yaml) 中，
+数据集生成有关的配置都在 [configs/conversation_cfg.yaml](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml) 中，
 
-下面为大家讲解下里面的配置，可以从架构图看到我对数据集的设计，其共有 4 大组成部分：
+
 
 <p align="center">
   <img src="                                               " alt="gen_data" width="45%">
