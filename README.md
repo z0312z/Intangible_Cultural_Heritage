@@ -72,7 +72,7 @@ streamlit run app.py --server.address=0.0.0.0 --server.port 7860
 
 
 <p align="center">
-  <img src="                                               " alt="gen_data" width="45%">
+  <img src="https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/Information/%E6%9E%B6%E6%9E%84%E5%9B%BE%E6%95%B0%E6%8D%AE%E9%83%A8%E5%88%86.png" alt="gen_data" width="45%">
 </p>
 
 - 主播性格
