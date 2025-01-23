@@ -102,7 +102,7 @@ role_type:
 >
 > 每个类 prompt: 你可以帮我举例每个非遗的6个亮点或特点，, 然后用python dict形式输出：{类名：[特点1, 特点2] ...} ，去掉特点12的字样，除python字典外的其他都不要输出，不要有任何的警告信息。 [xxx]
 
-详见：[configs/conversation_cfg.yaml L80-L390](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L82-L400)
+详见：[configs/conversation_cfg.yaml L82-L400](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L82-L400)
 
 ```yaml
 product_list:
