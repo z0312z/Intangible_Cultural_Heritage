@@ -82,7 +82,7 @@ streamlit run app.py --server.address=0.0.0.0 --server.port 7860
 ### 讲解员信息
 
 为讲解员设置基本信息和特点使其更贴近需求。
-详见：[configs/conversation_cfg.yaml L54-L60](https://github.com/PeterH0323/Streamer-Sales/blob/7184090b7009bbf0acbaf71872c5c1f45bcd5ec0/configs/conversation_cfg.yaml#L54-L60)
+详见：[configs/conversation_cfg.yaml L54-L60](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L54-L60)
 
 ```yaml
 # 角色及其性格
@@ -102,7 +102,7 @@ role_type:
 >
 > 每个类 prompt: 你可以帮我举例每个非遗的6个亮点或特点，, 然后用python dict形式输出：{类名：[特点1, 特点2] ...} ，去掉特点12的字样，除python字典外的其他都不要输出，不要有任何的警告信息。 [xxx]
 
-详见：[configs/conversation_cfg.yaml L80-L390](https://github.com/PeterH0323/Streamer-Sales/blob/7184090b7009bbf0acbaf71872c5c1f45bcd5ec0/configs/conversation_cfg.yaml#L80-L390)
+详见：[configs/conversation_cfg.yaml L80-L390](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L80-L390)
 
 ```yaml
 product_list:
@@ -132,7 +132,7 @@ product_list:
 
 在讲解员输出了自己的文案之后，客户肯定会产生新的问题需要继续解答，所以我举例了 10 个用户可能问到的问题的方向，生成的这些问题的 prompt 也在这里标注了
 
-详见：[configs/conversation_cfg.yaml L67-L78](https://github.com/PeterH0323/Streamer-Sales/blob/7184090b7009bbf0acbaf71872c5c1f45bcd5ec0/configs/conversation_cfg.yaml#L67-L78)
+详见：[configs/conversation_cfg.yaml L67-L78](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L67-L78)
 
 ```yaml
 # prompt: 了解非遗的时候，客户常会问题的问题，举例10个, 只列举大类就行
@@ -153,7 +153,7 @@ customer_question_type:
 
 配置文件最核心的部分就是如何生成 prompt 给到商用大模型的，这里配置了每个对话的条目，以及生成数据集的细节：
 
-详见：[configs/conversation_cfg.yaml L1-L46](https://github.com/PeterH0323/Streamer-Sales/blob/7184090b7009bbf0acbaf71872c5c1f45bcd5ec0/configs/conversation_cfg.yaml#L1-L46)
+详见：[configs/conversation_cfg.yaml L1-L46](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L1-L46)
 
 ```yaml
 # 对话设置
