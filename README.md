@@ -35,7 +35,7 @@
   - [🖼 演示](#%EF%B8%8F-演示视频)
   - [🛠 环境搭建](#-环境搭建)
   - [📜 微调数据](#微调数据)
-    - [主播性格](#主播性格)
+    - [主播信息](#主播信息)
     - [产品信息](#产品信息)
     - [用户可能提问](#用户可能提问)
     - [数据集生成 Prompt](#数据集生成-prompt)
@@ -67,22 +67,19 @@ streamlit run app.py --server.address=0.0.0.0 --server.port 7860
 
 ## 📜 微调数据
 
-数据集生成有关的配置都在 [configs/conversation_cfg.yaml](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml) 中，
-
-
+数据集生成有关的配置都在 [configs/conversation_cfg.yaml](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml) 中。
 
 <p align="center">
   <img src="https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/Information/%E6%9E%B6%E6%9E%84%E5%9B%BE%E6%95%B0%E6%8D%AE%E9%83%A8%E5%88%86.png" alt="gen_data" width="45%">
 </p>
 
-- 主播性格
-- 产品类型
+从架构图中可以看出我们将数据集分成了非遗和主播两个部分。其中非遗部分含有其特点和图片，主播部分包括主播的基本信息及特点。
+数据部分还包括了：
+
 - 用户可能问到的问题
 - 数据格式化成微调 json 以及自我认知
 
-### 主播性格
-
-首先来说下主播的性格，乐乐喵主播是一个可爱的女主播，她会称呼客户为【家人们】，等等的性格，我将其编入到 dataset yaml 中，我们可以看到性格配置：
+### 主播信息
 
 详见：[configs/conversation_cfg.yaml L54-L60](https://github.com/PeterH0323/Streamer-Sales/blob/7184090b7009bbf0acbaf71872c5c1f45bcd5ec0/configs/conversation_cfg.yaml#L54-L60)
 
