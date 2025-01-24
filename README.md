@@ -54,7 +54,7 @@
 ## 🛠 环境搭建
 
 ```bash
-git https://github.com/z0312z/Intangible_Cultural_Heritage.git
+git clone https://github.com/z0312z/Intangible_Cultural_Heritage.git
 cd Intangible_Cultural_Heritage
 conda env create -f environment.yml
 conda activate Intangible_Cultural_Heritage
