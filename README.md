@@ -129,7 +129,7 @@ product_list:
 
 ### 用户可能提问
 
-在讲解员输出了自己的文案之后，客户肯定会产生新的问题需要继续解答，所以我举例了 10 个用户可能问到的问题的方向，生成的这些问题的 prompt 也在这里标注了
+在讲解员输出了自己的文案之后，客户肯定会产生新的问题需要继续解答，所以我举例了 10 个用户可能问到的问题的方向，生成的这些问题的 prompt 也在这里标注了:
 
 ```yaml
 # prompt: 了解非遗的时候，客户常会问题的问题，举例10个, 只列举大类就行
@@ -149,8 +149,6 @@ customer_question_type:
 ### 数据集生成 Prompt
 
 配置文件最核心的部分就是如何生成 prompt 给到商用大模型的，这里配置了每个对话的条目，以及生成数据集的细节：
-
-详见：[configs/conversation_cfg.yaml L1-L46](https://github.com/z0312z/Intangible_Cultural_Heritage/blob/main/configs/conversation_cfg.yaml#L1-L46)
 
 ```yaml
 # 对话设置
